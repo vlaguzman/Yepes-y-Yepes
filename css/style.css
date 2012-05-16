@@ -1,0 +1,63 @@
+.ss-links{
+	position: fixed;
+	margin: 107px 50px;
+	z-index: 100;
+}
+.ss-links a{
+	background: rgba(0,0,0,0.2);
+	font-size: 16px;
+	width: 132px;
+	height: 40px;
+	line-height: 40px;
+	margin: 5px;
+	float: left;
+	display: block;
+	text-align: center;
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+	-o-transition: background 0.2s linear;
+	-ms-transition: background 0.2s linear;
+	transition: background 0.2s linear;
+}
+.ss-links a:hover{
+	background: rgba(0,0,0,0.4);
+}
+.ss-container{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    float: left;
+	overflow: hidden;
+	padding-bottom: 500px;
+}
+.ss-container h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgba(78,84,123,0.2);
+	text-shadow: 0px 1px 1px #fff;
+	padding: 20px 0px;
+}
+#home{
+	height:680px;
+}
+#nosotros{
+	height: 315px;
+}
+#servicios{
+	height: 425px;
+}
+#minuta{
+	height: 510px;
+}
+#contacto{
+	height: 500px;
+}
+#w-header-menu{
+	background: url(../images/botonera.png) no-repeat top center;
+	height: 167px;
+	width: 1024px;
+	margin-left: 12%;
+	position: fixed;
+	z-index: 100;
+}
+
